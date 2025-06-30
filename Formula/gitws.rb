@@ -35,6 +35,6 @@ class Gitws < Formula
   end
 
   test do
-    assert_match "0.1.0", shell_output("#{bin}/gitws --version")
+    assert_match "Git workspace management tool", shell_output("#{bin}/gitws --help")
   end
 end
