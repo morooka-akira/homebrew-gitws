@@ -20,12 +20,12 @@ class Gitws < Formula
     on_arm do
       url     "https://github.com/morooka-akira/gitws/releases/download/v0.1.0/gitws-aarch64-unknown-linux-gnu",
               using: :nounzip
-      sha256  "cc12faacd7edd4972ba16941a15c6084a29303609465b0b3ebc16564ce7a3b21"
+      sha256  "4ac3f0c5c6520b5a57e4906323315b39fb1ce781a93a81cf595e6d0b90a5307e"
     end
     on_intel do
       url     "https://github.com/morooka-akira/gitws/releases/download/v0.1.0/gitws-x86_64-unknown-linux-gnu",
               using: :nounzip
-      sha256  "85d845feec43191687cfb16783c889e62e3801a1d97aacbc830e1369167da46f"
+      sha256  "8521283cf73991bde43b6c938e829b77e5d057a635906e98facc22bff139688b"
     end
   end
 
