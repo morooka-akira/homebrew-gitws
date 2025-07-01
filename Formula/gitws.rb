@@ -7,12 +7,12 @@ class Gitws < Formula
     on_arm do
       url     "https://github.com/morooka-akira/gitws/releases/download/v0.1.0/gitws-aarch64-apple-darwin",
               using: :nounzip
-      sha256  "b1ff39df9dddf61c43303be8f8bfae62927ea2782ee7d82bb2dcf3246fdcb71c"
+      sha256  "8cf6ed9555a9d9108206047285e22f5469bb456c23c8d654215effeacf75462c"
     end
     on_intel do
       url     "https://github.com/morooka-akira/gitws/releases/download/v0.1.0/gitws-x86_64-apple-darwin",
               using: :nounzip
-      sha256  "2505d8ecd6d8b01dd560cd496f8b987d2347c3a33175a8b534d335e87934263d"
+      sha256  "590894c2323a5bb39b88e6cffcd2690e4e55d3537994406f116085e75dd738fd"
     end
   end
 
@@ -20,12 +20,12 @@ class Gitws < Formula
     on_arm do
       url     "https://github.com/morooka-akira/gitws/releases/download/v0.1.0/gitws-aarch64-unknown-linux-gnu",
               using: :nounzip
-      sha256  "b674cbf97f00676dcaf7d7932dde5ad98d0c75453d6721823c53e0822064ab02"
+      sha256  "cc12faacd7edd4972ba16941a15c6084a29303609465b0b3ebc16564ce7a3b21"
     end
     on_intel do
       url     "https://github.com/morooka-akira/gitws/releases/download/v0.1.0/gitws-x86_64-unknown-linux-gnu",
               using: :nounzip
-      sha256  "3e6d11af7010a715147a3b90feb5aa55d04791e58bfe7236604a4c6e6825a107"
+      sha256  "85d845feec43191687cfb16783c889e62e3801a1d97aacbc830e1369167da46f"
     end
   end
 
